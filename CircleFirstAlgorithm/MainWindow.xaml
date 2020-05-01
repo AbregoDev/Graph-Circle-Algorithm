@@ -1,0 +1,109 @@
+﻿<Window x:Class="CircleFirstAlgorithm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CircleFirstAlgorithm"
+        mc:Ignorable="d"
+        Title="Circunferencia" Height="430" Width="700">
+    <Grid>
+        <Rectangle Height="300" Width="600"
+                   VerticalAlignment="Top" Margin="0,30"
+                   Stroke="YellowGreen"/>
+        <Grid Name="screen" Height="300" Width="600"
+              VerticalAlignment="Top" Margin="0,30" >
+            <!--No recuerdo por qué agregué las columnas y filas desde XAML, seguramente porque no tenía nada mejor que hacer-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        </Grid>
+
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal" Margin="46,20">
+            <Label Name="lblCenterX" Content="Centro X" Width="60" Height="30"/>
+            <TextBox Name="tbxCentroX" Width="40" Height="30" Margin="20,0"
+                     VerticalContentAlignment="Center"/>
+            <Label Name="lblCenterY" Content="Centro Y" Width="60" Height="30"/>
+            <TextBox Name="tbxCentroY" Width="40" Height="30" Margin="20,0"
+                     VerticalContentAlignment="Center"/>
+            <Label Name="lblRadio" Content="Radio" Width="46" Height="30"/>
+            <TextBox Name="tbxRadio" Width="40" Height="30" Margin="20,0"
+                     VerticalContentAlignment="Center"/>
+            <Button Name="btnStart" Content="Iniciar" Height="30" Width="80" Margin="0"
+                FontSize="16" Click="BtnStart_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
